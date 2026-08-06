@@ -1,3 +1,6 @@
+mkdir -p ../sls-api
+
+cat << 'EOF' > ../sls-api/package.json
 {
   "name": "sls-api",
   "version": "1.0.0",
@@ -33,3 +36,6 @@
     "typescript": "^5.3.3"
   }
 }
+EOF
+
+./install.sh
