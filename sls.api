@@ -1,0 +1,6 @@
+cd ../sls-api
+mv sls-api/* . 2>/dev/null || true
+mv sls-api/.* . 2>/dev/null || true
+rm -rf sls-api
+cd ../sls-deploy
+./install.sh
